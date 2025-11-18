@@ -1,0 +1,33 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using PhantomWatchUI.DataDelegates;
+using PhantomWatchUI.Models;
+
+namespace PhantomWatchUI.Pages
+{
+    public class AnalyticsDashboardModel : PageModel
+    {
+        private readonly AggregatesDelegate _aggregates;
+
+        public AnalyticsDashboardModel(AggregatesDelegate aggregates)
+        {
+            _aggregates = aggregates;
+        }
+
+        public IEnumerable<RegionCredibility> TopRegions { get; set; } = Enumerable.Empty<RegionCredibility>();
+        public IEnumerable<RegionScaryEntities> RegionsWithScary { get; set; } = Enumerable.Empty<RegionScaryEntities>();
+        public IEnumerable<UserCredibilityStats> AvgCredByReporter { get; set; } = Enumerable.Empty<UserCredibilityStats>();
+        public IEnumerable<ReporterSummary> ReporterSummary { get; set; } = Enumerable.Empty<ReporterSummary>();
+
+        [BindProperty(SupportsGet = true)]
+        public int MinScaryLevel { get; set; } = 7;
+
+        public async Task OnGetAsync()
+        {
+            TopRegions = await _aggregates.GetTopRegionsByCredibilityAsync();
+            RegionsWithScary = await _aggregates.GetRegionsWithHighScaryEntitiesAsync(MinScaryLevel);
+            AvgCredByReporter = await _aggregates.GetAverageCredibilityByReporterAsync();
+            ReporterSummary = await _aggregates.GetRepeatVsSingleReportersAsync();
+        }
+    }
+}

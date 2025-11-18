@@ -1,0 +1,93 @@
+﻿@page
+@model PhantomWatchUI.Pages.HomeModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="pw-search-container">
+    <form method="get" class="pw-search-form">
+        <input type="text"
+               name="Search"
+               value="@Model.Search"
+               placeholder="Search Sightings By Keyword (Alias, Entity, City, Behavior)"
+               class="pw-search-input-main" />
+        <button type="submit" class="pw-search-btn">Search</button>
+    </form>
+</div>
+
+<div class="pw-home-grid">
+
+    <!-- Column 1: Create Post -->
+    <div class="pw-create-post">
+        <h3>Create Post</h3>
+        <p class="pw-create-post-desc">
+            This functionality is currently under construction. Please check back in at a later time.
+        </p>
+    </div>
+
+    <!-- Columns 2–4: Main Feed -->
+    <div class="pw-feed-container">
+        @if (!Model.Feed.Any())
+        {
+            <div class="pw-card">
+                <p>No sightings match your search.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var s in Model.Feed)
+            {
+                <div class="pw-post">
+
+                    <!-- LEFT SECTION: Post content -->
+                    <div class="pw-post-content">
+
+                        <div class="pw-post-header">
+                            <span class="pw-post-user">@s.PostedByAlias</span>
+                            <span class="pw-post-time">@s.TimeObserved.ToString("MMM dd, yyyy hh:mm tt")</span>
+                        </div>
+
+                        <div class="pw-post-section">
+                            <strong>Entity:</strong> @s.EntityName
+                        </div>
+
+                        <div class="pw-post-section">
+                            <strong>Location:</strong> @s.CityName, @s.State
+                        </div>
+
+                        <div class="pw-post-section">
+                            <strong>Behaviors:</strong>
+                            @if (s.Behaviors != null && s.Behaviors.Any())
+                            {
+                                @string.Join(", ", s.Behaviors)
+                            }
+                            else
+                            {
+                                <span>None recorded</span>
+                            }
+                        </div>
+
+                    </div>
+
+                    <div class="pw-post-vote-horizontal">
+
+                        <form method="post" asp-page-handler="Upvote">
+                            <input type="hidden" name="sightingId" value="@s.SightingID" />
+                            <button type="submit" class="vote-up">▲</button>
+                        </form>
+
+                        <div class="vote-score">@s.CredibilityScore</div>
+
+                        <form method="post" asp-page-handler="Downvote">
+                            <input type="hidden" name="sightingId" value="@s.SightingID" />
+                            <button type="submit" class="vote-down">▼</button>
+                        </form>
+
+                    </div>
+
+
+                </div>
+            }
+        }
+    </div>
+</div>

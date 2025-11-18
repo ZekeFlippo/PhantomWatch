@@ -1,0 +1,273 @@
+@page
+@model PhantomWatchUI.Pages.AnalyticsDashboardModel
+@{
+    ViewData["Title"] = "Analytics Dashboard";
+}
+
+<style>
+    .analytics-container {
+        width: 100%;
+        padding: 20px;
+        color: #E0E0E0;
+    }
+
+    .analytics-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+        margin-top: 20px;
+    }
+
+    .analytics-card {
+        background-color: #121212;
+        border: 2px solid #39FF14;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 0px 15px rgba(57,255,20,0.15);
+    }
+
+        .analytics-card h3 {
+            color: #39FF14;
+            margin-bottom: 12px;
+        }
+
+    .desc-box {
+        background: #1a1a1a;
+        border-left: 4px solid #39FF14;
+        padding: 10px 14px;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        font-size: .9rem;
+        line-height: 1.35rem;
+        color: #cfcfcf;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        color: white;
+    }
+
+    thead th {
+        padding: 8px;
+        border-bottom: 2px solid #39FF14;
+        text-align: left;
+    }
+
+    tbody td {
+        padding: 6px 4px;
+        border-bottom: 1px solid #333;
+    }
+
+    .param-row {
+        margin-bottom: 10px;
+    }
+
+        .param-row label {
+            display: block;
+            margin-bottom: 4px;
+            color: #39FF14;
+        }
+
+        .param-row input {
+            width: 100%;
+            padding: 6px;
+            border-radius: 6px;
+            border: 1px solid #39FF14;
+            background: #000;
+            color: #fff;
+        }
+
+    .update-btn {
+        margin-top: 10px;
+        background: #39FF14;
+        color: #000;
+        padding: 8px 14px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+</style>
+
+<div class="analytics-container">
+    <h2 style="text-align:center; color:#39FF14; font-size:32px; margin-bottom:20px;">
+        Analytics Dashboard
+    </h2>
+
+    <div class="analytics-grid">
+
+        <!-- CARD 1 -->
+        <div class="analytics-card">
+            <h3>Top Regions by Total Credibility Score</h3>
+
+            <div class="desc-box">
+                <strong>Description:</strong><br />
+                Shows which regions have accumulated the highest credibility score across all sightings.<br /><br />
+                <strong>Parameters:</strong> StartDate, EndDate<br />
+                <strong>Returns:</strong> Region, TotalCredibilityScore, AverageCredibilityScore, SightingCount
+            </div>
+
+            <form method="get" asp-page-handler="TopRegions">
+                <div class="param-row">
+                    <label>Start Date</label>
+                    <input type="date" asp-for="StartDate" />
+                </div>
+                <div class="param-row">
+                    <label>End Date</label>
+                    <input type="date" asp-for="EndDate" />
+                </div>
+                <button class="update-btn" type="submit">Update</button>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Region</th>
+                        <th>Total Credibility</th>
+                        <th>Avg Credibility</th>
+                        <th>Sightings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var r in Model.TopRegions)
+                    {
+                        <tr>
+                            <td>@r.Region</td>
+                            <td>@r.TotalCredibilityScore</td>
+                            <td>@r.AverageCredibilityScore</td>
+                            <td>@r.SightingCount</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="analytics-card">
+            <h3>Regions With High Scary Entities</h3>
+
+            <div class="desc-box">
+                <strong>Description:</strong><br />
+                Shows regions containing entities with scary levels above a chosen threshold.<br /><br />
+                <strong>Parameter:</strong> MinScaryLevel<br />
+                <strong>Returns:</strong> Region, HighScaryEntityCount, AvgScaryLevel, MaxScaryLevel
+            </div>
+
+            <form method="get" asp-page-handler="ScaryRegions">
+                <div class="param-row">
+                    <label>Min Scary Level</label>
+                    <input type="number" asp-for="MinScaryLevel" min="1" max="10" />
+                </div>
+                <button class="update-btn" type="submit">Update</button>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Region</th>
+                        <th>High-Scary Entities</th>
+                        <th>Avg Level</th>
+                        <th>Max Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var r in Model.RegionsWithScary)
+                    {
+                        <tr>
+                            <td>@r.Region</td>
+                            <td>@r.HighScaryEntityCount</td>
+                            <td>@r.AvgScaryLevel</td>
+                            <td>@r.MaxScaryLevel</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="analytics-card">
+            <h3>Average Credibility by Reporter</h3>
+
+            <div class="desc-box">
+                <strong>Description:</strong><br />
+                Shows each reporter’s average credibility score.<br /><br />
+                <strong>Parameter:</strong> MinReports<br />
+                <strong>Returns:</strong> UserID, Alias, AvgCredibilityScore, ReportCount
+            </div>
+
+            <form method="get" asp-page-handler="ReporterCredibility">
+                <div class="param-row">
+                    <label>Min Reports</label>
+                    <input type="number" asp-for="MinReports" min="1" />
+                </div>
+                <button class="update-btn" type="submit">Update</button>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>UserID</th>
+                        <th>Alias</th>
+                        <th>Avg Credibility</th>
+                        <th>Reports</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var u in Model.AvgCredByReporter)
+                    {
+                        <tr>
+                            <td>@u.UserID</td>
+                            <td>@u.Alias</td>
+                            <td>@u.AvgCredibilityScore</td>
+                            <td>@u.ReportCount</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="analytics-card">
+            <h3>Repeat vs Single-Time Reporters</h3>
+
+            <div class="desc-box">
+                <strong>Description:</strong><br />
+                Shows how many users report once vs. multiple times.<br /><br />
+                <strong>Parameters:</strong> StartDate, EndDate<br />
+                <strong>Returns:</strong> ReporterCategory, UserCount
+            </div>
+
+            <form method="get" asp-page-handler="ReporterSummary">
+                <div class="param-row">
+                    <label>Start Date</label>
+                    <input type="date" asp-for="StartDate" />
+                </div>
+                <div class="param-row">
+                    <label>End Date</label>
+                    <input type="date" asp-for="EndDate" />
+                </div>
+                <button class="update-btn" type="submit">Update</button>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Users</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var s in Model.ReporterSummary)
+                    {
+                        <tr>
+                            <td>@s.ReporterCategory</td>
+                            <td>@s.UserCount</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

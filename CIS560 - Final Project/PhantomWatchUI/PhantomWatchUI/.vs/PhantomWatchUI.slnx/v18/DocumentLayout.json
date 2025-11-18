@@ -1,0 +1,687 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\reportersummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\reportersummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\regioncredibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\regioncredibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\behavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\behavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\aggregatesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\aggregatesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\uservotesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\uservotesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\sightingsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\sightingsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\sighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\sighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\usersightingsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\usersightingsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\sightingfeeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\sightingfeeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\usersighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\usersighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\analyticsdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\analyticsdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\usercredibilitystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\usercredibilitystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\analyticsdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\analyticsdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\regionscaryentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\regionscaryentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\citiesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\citiesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\behaviorsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\behaviorsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\sightingbehaviorsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\sightingbehaviorsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\entitiesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\entitiesdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\usersdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:datadelegates\\usersdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\sightingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:models\\sightingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|c:\\users\\tjlar\\onedrive\\desktop\\cis560 - final project\\phantomwatchui\\phantomwatchui\\phantomwatchui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9BE9A996-1C46-AF50-4962-D9DD542F9D46}|PhantomWatchUI.csproj|solutionrelative:phantomwatchui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T17:23:06.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReporterSummary.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\ReporterSummary.cs",
+              "RelativeDocumentMoniker": "Models\\ReporterSummary.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\ReporterSummary.cs",
+              "RelativeToolTip": "Models\\ReporterSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:50:08.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Home.cshtml.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml.cs",
+              "RelativeToolTip": "Pages\\Home.cshtml.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAYwIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:26:55.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserSightingsDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\UserSightingsDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\UserSightingsDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\UserSightingsDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\UserSightingsDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:39:30.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AggregatesDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\AggregatesDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\AggregatesDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\AggregatesDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\AggregatesDelegate.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:40:01.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Behavior.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Behavior.cs",
+              "RelativeDocumentMoniker": "Models\\Behavior.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Behavior.cs",
+              "RelativeToolTip": "Models\\Behavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:36:13.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegionCredibility.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\RegionCredibility.cs",
+              "RelativeDocumentMoniker": "Models\\RegionCredibility.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\RegionCredibility.cs",
+              "RelativeToolTip": "Models\\RegionCredibility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:48:51.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Home.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml",
+              "RelativeToolTip": "Pages\\Home.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:26:46.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:23:37.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T20:44:35.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:24:52.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T16:45:02.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sighting.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Sighting.cs",
+              "RelativeDocumentMoniker": "Models\\Sighting.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Sighting.cs",
+              "RelativeToolTip": "Models\\Sighting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:37:34.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:40:57.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserVotesDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\UserVotesDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\UserVotesDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\UserVotesDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\UserVotesDelegate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T23:00:18.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SightingsDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingsDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\SightingsDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingsDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\SightingsDelegate.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:38:43.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AnalyticsDashboard.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\AnalyticsDashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\AnalyticsDashboard.cshtml.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\AnalyticsDashboard.cshtml.cs",
+              "RelativeToolTip": "Pages\\AnalyticsDashboard.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T20:55:10.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SightingFeedItem.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\SightingFeedItem.cs",
+              "RelativeDocumentMoniker": "Models\\SightingFeedItem.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\SightingFeedItem.cs",
+              "RelativeToolTip": "Models\\SightingFeedItem.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:51:38.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AnalyticsDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\AnalyticsDashboard.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AnalyticsDashboard.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\AnalyticsDashboard.cshtml",
+              "RelativeToolTip": "Pages\\AnalyticsDashboard.cshtml",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAUwBEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T20:54:57.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserSighting.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\UserSighting.cs",
+              "RelativeDocumentMoniker": "Models\\UserSighting.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\UserSighting.cs",
+              "RelativeToolTip": "Models\\UserSighting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:37:42.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserCredibilityStats.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\UserCredibilityStats.cs",
+              "RelativeDocumentMoniker": "Models\\UserCredibilityStats.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\UserCredibilityStats.cs",
+              "RelativeToolTip": "Models\\UserCredibilityStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:49:35.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegionScaryEntities.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\RegionScaryEntities.cs",
+              "RelativeDocumentMoniker": "Models\\RegionScaryEntities.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\RegionScaryEntities.cs",
+              "RelativeToolTip": "Models\\RegionScaryEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:49:16.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\City.cs",
+              "RelativeDocumentMoniker": "Models\\City.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\City.cs",
+              "RelativeToolTip": "Models\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:36:19.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-17T16:33:54.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Pages\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\SignUp.cshtml",
+              "RelativeToolTip": "Pages\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:25:40.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SignUp.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\SignUp.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\SignUp.cshtml.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\SignUp.cshtml.cs",
+              "RelativeToolTip": "Pages\\SignUp.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:25:51.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml",
+              "RelativeToolTip": "Pages\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T20:54:37.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Admin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin.cshtml.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T20:54:40.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:25:07.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:24:10.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CitiesDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\CitiesDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\CitiesDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\CitiesDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\CitiesDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:39:19.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BehaviorsDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\BehaviorsDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\BehaviorsDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\BehaviorsDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\BehaviorsDelegate.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:39:10.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SightingBehaviorsDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingBehaviorsDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\SightingBehaviorsDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingBehaviorsDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\SightingBehaviorsDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:39:47.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EntitiesDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\EntitiesDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\EntitiesDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\EntitiesDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\EntitiesDelegate.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:38:57.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UsersDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\UsersDelegate.cs",
+              "RelativeDocumentMoniker": "DataDelegates\\UsersDelegate.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\UsersDelegate.cs",
+              "RelativeToolTip": "DataDelegates\\UsersDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:38:32.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:35:51.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Entity.cs",
+              "RelativeDocumentMoniker": "Models\\Entity.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Entity.cs",
+              "RelativeToolTip": "Models\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:36:04.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SightingBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\SightingBehavior.cs",
+              "RelativeDocumentMoniker": "Models\\SightingBehavior.cs",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\SightingBehavior.cs",
+              "RelativeToolTip": "Models\\SightingBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:37:49.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PhantomWatchUI.csproj",
+              "DocumentMoniker": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj",
+              "RelativeDocumentMoniker": "PhantomWatchUI.csproj",
+              "ToolTip": "C:\\Users\\tjlar\\OneDrive\\Desktop\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj",
+              "RelativeToolTip": "PhantomWatchUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-17T16:37:56.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

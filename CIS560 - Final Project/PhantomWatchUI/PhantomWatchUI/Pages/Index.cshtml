@@ -1,0 +1,68 @@
+﻿@page
+@model PhantomWatchUI.Pages.IndexModel
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<style>
+    .welcome-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh; /* Full page minus navbar */
+        text-align: center;
+    }
+
+    .welcome-card {
+        background: var(--pw-card);
+        border: 2px solid var(--pw-accent);
+        border-radius: 12px;
+        padding: 2rem 3rem;
+        width: 480px; /* increased size */
+        box-shadow: 0 0 20px rgba(57,255,20,0.18);
+    }
+
+        .welcome-card h2 {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+            color: var(--pw-accent);
+            font-weight: 700;
+        }
+
+        .welcome-card p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+
+    .welcome-btn {
+        background: var(--pw-accent);
+        border: none;
+        padding: 0.6rem 1.4rem;
+        border-radius: 6px;
+        font-weight: 600;
+        color: black;
+        cursor: pointer;
+        margin: 0 0.4rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+
+        .welcome-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 0 10px var(--pw-accent);
+        }
+</style>
+
+<div class="welcome-container">
+    <div class="welcome-card">
+        <h2>Welcome to <span style="color: var(--pw-accent)">PhantomWatch</span></h2>
+        <p>A registry of strange and paranormal sightings.</p>
+
+        <div>
+            <a asp-page="/Login" class="welcome-btn">Login</a>
+            <a asp-page="/SignUp" class="welcome-btn">Sign Up</a>
+        </div>
+    </div>
+</div>

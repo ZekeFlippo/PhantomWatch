@@ -1,0 +1,33 @@
+﻿@page
+@model PhantomWatchUI.Pages.SignUpModel
+@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<div class="pw-card">
+    <h2>Create an account</h2>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <p style="color: #ff6b6b;">@Model.ErrorMessage</p>
+    }
+
+    <form method="post">
+        <label class="pw-label" asp-for="Email">Email</label>
+        <input class="pw-input" asp-for="Email" />
+
+        <label class="pw-label" asp-for="Alias">Alias</label>
+        <input class="pw-input" asp-for="Alias" />
+
+        <label class="pw-label" asp-for="Name">Display Name</label>
+        <input class="pw-input" asp-for="Name" />
+
+        <label class="pw-label" asp-for="Age">Age</label>
+        <input class="pw-input" asp-for="Age" type="number" />
+
+        <div style="margin-top: 1rem;">
+            <button type="submit" class="pw-button">Sign Up</button>
+            <a asp-page="/Login" class="pw-link" style="margin-left: 0.75rem;">Already have an account?</a>
+        </div>
+    </form>
+</div>

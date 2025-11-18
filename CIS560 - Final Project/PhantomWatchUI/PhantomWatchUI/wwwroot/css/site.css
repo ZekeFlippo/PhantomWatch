@@ -1,0 +1,302 @@
+/* ============================================================
+   Global Variables
+============================================================ */
+:root {
+    --pw-bg: #121212;
+    --pw-accent: #39FF14;
+    --pw-text: #E0E0E0;
+    --pw-card: #1e1e1e;
+}
+
+/* ============================================================
+   Base Layout
+============================================================ */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: var(--pw-bg);
+    color: var(--pw-text);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content wrapper */
+.pw-main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+}
+
+/* ============================================================
+   Cards + UI Components
+============================================================ */
+.pw-card {
+    background: var(--pw-card);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
+.pw-button {
+    background: var(--pw-accent);
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+    .pw-button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 0 10px var(--pw-accent);
+    }
+
+.pw-input {
+    width: 100%;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background: #181818;
+    color: var(--pw-text);
+    margin-bottom: 0.75rem;
+}
+
+.pw-label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.pw-link {
+    color: var(--pw-accent);
+    text-decoration: none;
+}
+
+    .pw-link:hover {
+        text-decoration: underline;
+    }
+
+/* ============================================================
+   Search Bar (moved from Home.cshtml)
+============================================================ */
+.pw-search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.pw-search-form {
+    display: flex;
+    width: 70%;
+    max-width: 900px;
+}
+
+.pw-search-input-main {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: #1b1b1b;
+    color: var(--pw-text);
+    font-size: 1rem;
+}
+
+    .pw-search-input-main::placeholder {
+        color: #888;
+    }
+
+.pw-search-btn {
+    margin-left: 0.75rem;
+    padding: 0.75rem 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background: var(--pw-accent);
+    color: black;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+    .pw-search-btn:hover {
+        box-shadow: 0 0 10px var(--pw-accent);
+        transform: translateY(-1px);
+    }
+
+/* ============================================================
+   Grid Layouts (Home Feed) – Updated to 1x4
+============================================================ */
+.pw-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.pw-create-post {
+    grid-column: 1 / 2;
+}
+
+.pw-create-post-desc {
+    opacity: 0.7;
+}
+
+.pw-feed-container {
+    grid-column: 2 / 5;
+}
+
+/* ============================================================
+   Feed Posts
+============================================================ */
+.pw-post {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: var(--pw-card);
+    border: 1px solid white;
+    border-left: 3px solid var(--pw-accent);
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+}
+
+
+.pw-post-content {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.pw-post-header {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.pw-post-user {
+    color: var(--pw-accent);
+    font-size: 0.9rem;
+}
+
+.pw-post-time {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.pw-post-vote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+}
+
+.pw-behaviors {
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+    opacity: 0.85;
+}
+
+/* ============================================================
+   Pagination
+============================================================ */
+.pw-pagination {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.pw-page-btn {
+    display: inline-block;
+    margin: 0 0.25rem;
+    padding: 0.45rem 0.8rem;
+    background: var(--pw-card);
+    border: 1px solid var(--pw-accent);
+    color: var(--pw-text);
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .pw-page-btn:hover {
+        background: var(--pw-accent);
+        color: #000;
+    }
+
+.pw-page-active {
+    background: var(--pw-accent);
+    color: #000;
+    font-weight: 700;
+}
+
+/* ============================================================
+   Font (Poultrygeist)
+============================================================ */
+@font-face {
+    font-family: "Poultrygeist";
+    src: url("/fonts/Poultrygeist-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pw-title {
+    font-family: "Poultrygeist", sans-serif;
+    font-size: 34px;
+    color: white;
+    text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
+}
+
+/* ============================================================
+   Navbar
+============================================================ */
+.navbar-custom {
+    background-color: var(--pw-accent) !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Horizontal layout for vote buttons */
+.pw-post-vote-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    min-width: 120px;
+}
+
+/* Buttons */
+.vote-up, .vote-down {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Colors */
+.vote-up {
+    color: #39FF14; /* Neon green */
+}
+
+.vote-down {
+    color: #ff2b2b; /* Bright red */
+}
+
+/* Score text */
+.vote-score {
+    font-size: 18px;
+    font-weight: bold;
+}
+
