@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CIS560 - Final Project", "CIS560 - Final Project", "{E858FF11-DA00-B0B8-8BBD-B52631BC08E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhantomWatchUI", "PhantomWatchUI", "{97E31420-5EE5-0FA5-05D1-70DAE1D6791A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhantomWatchUI", "CIS560 - Final Project\PhantomWatchUI\PhantomWatchUI\PhantomWatchUI.csproj", "{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97E31420-5EE5-0FA5-05D1-70DAE1D6791A} = {E858FF11-DA00-B0B8-8BBD-B52631BC08E1}
+		{6B4551A5-D6B6-0308-3D65-F2B97EF910B7} = {97E31420-5EE5-0FA5-05D1-70DAE1D6791A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C98282F0-3EB8-4348-8A12-4905C1742939}
+	EndGlobalSection
+EndGlobal
