@@ -1,9 +1,7 @@
 -- Open up your SQL Server Management Studio 
 - ensure that you are on localdb
 
--- Run DataBase_Setup_Query 
-
--- Open up Data.sql
+-- Run Data.sql
 - ensure that you change all of the file addresses to where you have this stored, mine is 
 	'C:\Users\tjlar\OneDrive\Desktop\CIS560 - Final Project\Mock_Data_CSVs\[CSV NAME]'
 - now you can run it. 
@@ -15,7 +13,7 @@
 
 
 
-NOTE: we do not exist in USERS_MOCK.CSV , so run this query at the end to establish us in the DB
+NOTE: we do not exist in USERS_MOCK.CSV , so run this query at the end to establish us in the DB (inside SMSS)
 
 UPDATE dbo.Users
 SET isAdmin = 0;
