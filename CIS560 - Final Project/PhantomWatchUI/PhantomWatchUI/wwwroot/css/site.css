@@ -300,3 +300,30 @@ body {
     font-weight: bold;
 }
 
+
+
+.collapsible {
+    margin-bottom: 20px;
+}
+
+.collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #444;
+}
+
+    .collapse-header:hover {
+        opacity: 0.85;
+    }
+
+.collapse-icon {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.collapse-content {
+    margin-top: 15px;
+}

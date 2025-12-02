@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhantomWatchUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5f5bb909e094df92e5e7b24689e81d22af84c86")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhantomWatchUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhantomWatchUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -20,9 +20,45 @@
     <!-- Column 1: Create Post -->
     <div class="pw-create-post">
         <h3>Create Post</h3>
-        <p class="pw-create-post-desc">
-            This functionality is currently under construction. Please check back in at a later time.
-        </p>
+
+        <form method="post" asp-page-handler="Create">
+
+            <label>Entity</label>
+            <select asp-for="NewEntityID" class="pw-input">
+                @foreach (var e in Model.Entities)
+                {
+                    <option value="@e.EntityID">@e.Name</option>
+                }
+            </select>
+
+            <label>City & State</label>
+            <select asp-for="NewCity" class="pw-input">
+                @foreach (var c in Model.Cities)
+                {
+                    <option value="@($"{c.CityName}|{c.State}")">@c.CityName, @c.State</option>
+                }
+            </select>
+
+            <label>Time Observed</label>
+            <input asp-for="NewTimeObserved" type="datetime-local" class="pw-input" />
+
+            <label>Behaviors</label>
+            <div class="pw-behavior-checkboxes">
+                @foreach (var b in Model.Behaviors)
+                {
+                    <div>
+                        <input type="checkbox"
+                               name="NewBehaviors"
+                               value="@b.BehaviorName"
+                               id="beh_@b.BehaviorName" />
+
+                        <label for="beh_@b.BehaviorName">@b.BehaviorName</label>
+                    </div>
+                }
+            </div>
+
+            <button type="submit" class="pw-button" style="margin-top:10px;">Post</button>
+        </form>
     </div>
 
     <!-- Columns 2–4: Main Feed -->

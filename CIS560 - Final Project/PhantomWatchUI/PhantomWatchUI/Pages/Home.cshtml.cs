@@ -45,6 +45,37 @@ namespace PhantomWatchUI.Pages
 
         public List<SightingViewModel> Feed { get; set; } = new();
 
+        [BindProperty]
+        public int NewEntityID { get; set; }
+
+        [BindProperty]
+        public string NewCity { get; set; } = string.Empty;
+
+        [BindProperty]
+        public string NewState { get; set; } = string.Empty;
+
+        [BindProperty]
+        public DateTime NewTimeObserved { get; set; } = DateTime.Now;
+
+        [BindProperty]
+        public List<string> NewBehaviors { get; set; } = new();
+
+        public IEnumerable<Entity> Entities { get; set; } = new List<Entity>();
+        public IEnumerable<Behavior> Behaviors { get; set; } = new List<Behavior>();
+
+
+        public List<string> States { get; } = new()
+        {
+            "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA",
+            "HI","ID","IL","IN","IA","KS","KY","LA","ME","MD",
+            "MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
+            "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC",
+            "SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"
+        };
+
+        public IEnumerable<City> Cities { get; set; } = new List<City>();
+
+
         // ----------------------------------------------------------
         //  GET FEED
         // ----------------------------------------------------------
@@ -55,6 +86,11 @@ namespace PhantomWatchUI.Pages
             var users = (await _usersDelegate.GetUsersAsync()).ToList();
             var userSightings = (await _userSightingsDelegate.GetUserSightingsAsync()).ToList();
             var sightingBehaviors = (await _sightingBehaviorsDelegate.GetSightingBehaviorsAsync()).ToList();
+            Cities = await _citiesDelegate.GetCitiesAsync();
+
+            Entities = await _entitiesDelegate.GetEntitiesAsync();
+            Behaviors = await _behaviorsDelegate.GetBehaviorsAsync();
+
 
             var list = new List<SightingViewModel>();
 
@@ -130,6 +166,49 @@ namespace PhantomWatchUI.Pages
             {
                 await _sightingsDelegate.DownvoteAsync(sightingId);
                 await _userVotesDelegate.InsertVoteAsync(userId, sightingId, 'D');
+            }
+
+            return RedirectToPage();
+        }
+
+        // ----------------------------------------------------------
+        //  CREATE POST HANDLER
+        // ----------------------------------------------------------
+        public async Task<IActionResult> OnPostCreateAsync()
+        {
+            int? userId = HttpContext.Session.GetInt32("UserID");
+            if (userId == null)
+                return RedirectToPage("/Login");
+
+
+            var parts = NewCity.Split('|');
+            string city = parts[0];
+            string state = parts[1];
+
+
+
+            var s = new Sighting
+            {
+                EntityID = NewEntityID,
+                TimeObserved = NewTimeObserved,
+                CityName = city,
+                State = state,
+                CredibilityScore = 0
+            };
+
+            await _sightingsDelegate.InsertSightingAsync(s);
+
+            
+            var all = await _sightingsDelegate.GetSightingsAsync();
+            int newSightingId = all.Max(x => x.SightingID);
+
+            
+            await _userSightingsDelegate.InsertUserSightingAsync(newSightingId, userId.Value);
+
+            
+            foreach (var b in NewBehaviors)
+            {
+                await _sightingBehaviorsDelegate.InsertSightingBehaviorAsync(newSightingId, b);
             }
 
             return RedirectToPage();

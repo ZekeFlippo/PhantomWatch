@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jwuth\\Repositories\\CIS560\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|c:\\users\\jwuth\\repositories\\cis560\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|solutionrelative:cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|c:\\users\\jwuth\\repositories\\cis560\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|solutionrelative:cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|c:\\users\\jwuth\\repositories\\cis560\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|solutionrelative:cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|c:\\users\\jwuth\\repositories\\cis560\\cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|solutionrelative:cis560 - final project\\phantomwatchui\\phantomwatchui\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|c:\\users\\jwuth\\repositories\\cis560\\cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\sighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|solutionrelative:cis560 - final project\\phantomwatchui\\phantomwatchui\\models\\sighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|c:\\users\\jwuth\\repositories\\cis560\\cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\sightingsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4551A5-D6B6-0308-3D65-F2B97EF910B7}|CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\PhantomWatchUI.csproj|solutionrelative:cis560 - final project\\phantomwatchui\\phantomwatchui\\datadelegates\\sightingsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml.cs",
+              "ToolTip": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml.cs",
+              "RelativeToolTip": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:55:07.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml",
+              "RelativeDocumentMoniker": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml",
+              "RelativeToolTip": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Admin.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwEQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T05:48:04.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sighting.cs",
+              "DocumentMoniker": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Sighting.cs",
+              "RelativeDocumentMoniker": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Sighting.cs",
+              "ToolTip": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Sighting.cs",
+              "RelativeToolTip": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Models\\Sighting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:33:45.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SightingsDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingsDelegate.cs",
+              "RelativeDocumentMoniker": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingsDelegate.cs",
+              "ToolTip": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingsDelegate.cs",
+              "RelativeToolTip": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\DataDelegates\\SightingsDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:29:57.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml.cs",
+              "RelativeDocumentMoniker": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml.cs",
+              "ToolTip": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml.cs",
+              "RelativeToolTip": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAqwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:07:36.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml",
+              "ToolTip": "C:\\Users\\jwuth\\Repositories\\CIS560\\CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml",
+              "RelativeToolTip": "CIS560 - Final Project\\PhantomWatchUI\\PhantomWatchUI\\Pages\\Home.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T05:02:07.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
