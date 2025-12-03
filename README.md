@@ -68,11 +68,25 @@ Contains all Razor Pages (`.cshtml` and `.cshtml.cs`) used throughout the applic
 
 ---
 
+## Setup Hint
+
+- Open SQL Server Management Studio and ensure you are connected to **localdb**.
+
+- Run **Data.sql**  
+  - Update all file paths to match your machine. Example:  
+    `C:\Users\tjlar\OneDrive\Desktop\CIS560 - Final Project\Mock_Data_CSVs\[CSV NAME]`  
+  - After updating paths, execute the script.
+
+- Run **Procedures.sql**.
+
+- Open **Visual Studio**.  
+  You should be able to open the repository directly from GitHub.
+
+
+
 ## Summary
 
 This repository integrates:
 - A full SQL Server database with schema, stored procedures, and mock data.
-- A Razor Pages web application built around the PhantomWatch system.
-- A clean separation between data access, models, UI, and static resources.
+- A Razor Pages web application.
 
-All required components outlined in the assignment description can be found within the directories listed above.
